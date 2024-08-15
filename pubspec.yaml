@@ -1,0 +1,39 @@
+name: test_suitmedia
+description: A new Flutter project for Suitmedia test.
+
+# The version number is used to identify the version of the project.
+version: 1.0.0+1
+
+# The environment specifies the version of the Dart SDK and Flutter.
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  http: ^1.2.0
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  # Lint rules for Dart and Flutter
+  flutter_lints: ^2.0.0
+  # The flutter_test package provides testing functions and utilities
+  flutter_test:
+    sdk: flutter
+
+# Flutter-specific configurations
+flutter:
+  uses-material-design: true
+
+  # Assets such as images used in the project
+  assets:
+    - assets/ic_photo.png
+    - assets/background.png
+
+  # Fonts can be added here (if you have custom fonts)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
